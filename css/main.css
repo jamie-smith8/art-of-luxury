@@ -1,0 +1,59 @@
+.title {
+    font-family: 'Playball', cursive;
+    color: aliceblue;
+    padding-left: 10px;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url(../images/pattern.jpg);
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -3;
+    opacity: .6;
+}
+
+.banner {
+    background-color: rgba(250, 100, 100, .9);
+    width: 100vw;
+    height: 10vh;
+    margin-top: 12vh;
+    padding-top: 4vh;
+    z-index: -2;
+}
+
+.under-banner {
+    background-color: white;
+    height: 5vh;
+    width: 100vw;
+}
+
+.tag {
+    color: rgba(250, 100, 100, 1);
+    font-family: 'Playball', cursive;
+    text-align: right;
+    right: 10px;
+    margin: 0;
+    padding-right: 10px;
+    padding-top: 1vh;
+}
+
+.patti {
+    position: absolute;
+    width: 18vh;
+    right: 2%;
+    top: -6.5px;
+}
+
+
+
+
+
